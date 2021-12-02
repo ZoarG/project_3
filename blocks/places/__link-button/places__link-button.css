@@ -1,0 +1,20 @@
+.places__link-button {
+  background: #0278fe;
+  max-width: 248px;
+  max-height: 48px;
+  text-decoration: none;
+  grid-area: link;
+  border-radius: 4px;
+  transition: background-color 0.5s ease;
+}
+
+.places__link-button:hover {
+  background: #0063d2;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .places__link-button {
+    margin: 0 16px;
+    max-width: 288px;
+  }
+}

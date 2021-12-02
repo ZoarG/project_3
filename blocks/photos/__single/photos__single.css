@@ -1,0 +1,18 @@
+.photos__single {
+  min-width: 284px;
+  min-height: 213px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .photos__single {
+    min-width: 352px;
+    min-height: 264px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .photos__single {
+    max-width: 288px;
+    max-height: 216px;
+  }
+}

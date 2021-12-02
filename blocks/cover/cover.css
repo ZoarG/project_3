@@ -1,0 +1,21 @@
+.cover {
+  margin: 0 48px 0 48px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .cover {
+    margin: 0;
+    max-width: 768px;
+    max-height: 746px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cover {
+    margin: 0;
+    max-width: 320px;
+    max-height: 254px;
+  }
+}

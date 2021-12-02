@@ -1,0 +1,16 @@
+.cover__link {
+  margin: 13px 20px;
+  width: 97px;
+  height: 22px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 3;
+}
