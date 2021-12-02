@@ -22,4 +22,4 @@ Good luck and have fun!
 
 ### Link to the project on GitHub
 
-- https://zoarg.github.io/web_project_3/
+- https://zoarg.github.io/web_project_3/index.html
