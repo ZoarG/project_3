@@ -27,12 +27,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 676px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .places__items {
     margin: 0 0 64px;
     padding-bottom: 50px;
     grid-template-columns: auto;
-    grid-template-rows: 35px 60px 320px auto 48px;
+    grid-auto-rows: minmax(35px, auto);
+    grid-template-rows: auto auto auto auto 48px;
     grid-gap: 30px;
     grid-template-areas:
       "title"
