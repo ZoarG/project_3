@@ -6,7 +6,6 @@
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
-  max-height: 116px;
   max-width: 785px;
   margin: 92px 0 0;
 }
@@ -15,7 +14,6 @@
   .intro__title {
     margin: 88px 0 0;
     max-width: 720px;
-    max-height: 174px;
   }
 }
 
@@ -23,6 +21,5 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    max-height: 140px;
   }
 }

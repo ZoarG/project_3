@@ -1,7 +1,7 @@
 .places__link-button {
   background: #0278fe;
-  max-width: 248px;
-  max-height: 48px;
+  min-width: 248px;
+  min-height: 48px;
   text-decoration: none;
   grid-area: link;
   border-radius: 4px;
@@ -12,9 +12,9 @@
   background: #0063d2;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 676px) {
   .places__link-button {
     margin: 0 16px;
-    max-width: 288px;
+    min-width: 288px;
   }
 }

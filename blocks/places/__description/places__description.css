@@ -2,4 +2,5 @@
   display: flex;
   flex-direction: column;
   grid-area: description;
+  height: 100%;
 }
