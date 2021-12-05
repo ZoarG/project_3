@@ -20,7 +20,8 @@
     padding-bottom: 60px;
     grid-gap: 46px 28px;
     grid-template-columns: 49% 51%;
-    grid-template-rows: 46px 340px 48px;
+    grid-auto-rows: minmax(46px, 460px);
+    grid-template-rows: auto auto 48px;
   }
   .places__items:last-of-type {
     padding-bottom: 210px;

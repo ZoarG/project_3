@@ -1,7 +1,6 @@
 .places__image {
   min-width: 460px;
   width: 100%;
-  height: 100vw;
   grid-area: image;
 }
 
