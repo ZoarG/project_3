@@ -1,6 +1,7 @@
 .places__description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   grid-area: description;
   height: 100%;
 }

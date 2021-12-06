@@ -20,11 +20,12 @@
     padding-bottom: 60px;
     grid-gap: 46px 28px;
     grid-template-columns: 49% 51%;
-    grid-auto-rows: minmax(46px, 460px);
+    grid-auto-rows: minmax(46px, 430px);
     grid-template-rows: auto auto 48px;
   }
   .places__items:last-of-type {
-    padding-bottom: 210px;
+    padding-bottom: 0;
+    margin-bottom: 92px;
   }
 }
 
@@ -42,6 +43,8 @@
       "image"
       "description"
       "link";
+    display: flex;
+    align-items: center;
   }
   .places__items:last-of-type {
     margin-bottom: 64px;
