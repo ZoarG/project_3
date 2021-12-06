@@ -5,3 +5,9 @@
   grid-area: description;
   height: 100%;
 }
+
+@media screen and (min-width: 1281px) {
+  .places__description {
+    max-width: 400px;
+  }
+}
