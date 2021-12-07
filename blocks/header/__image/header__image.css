@@ -13,7 +13,7 @@
   .header__image {
     margin-top: 36px;
     min-width: 768px;
-    width: 100vw;
+    width: 99vw;
     min-height: 480px;
     height: 62vw;
   }
@@ -22,7 +22,7 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__image {
     min-width: 320px;
-    width: 100vw;
+    width: 99vw;
     min-height: 200px;
     height: 62vw;
     margin-top: 40px;
