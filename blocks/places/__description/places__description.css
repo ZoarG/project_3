@@ -1,13 +1,17 @@
 .places__description {
   display: flex;
   flex-direction: column;
-  align-items: center;
   grid-area: description;
-  height: 100%;
 }
 
 @media screen and (min-width: 1281px) {
   .places__description {
     max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__description {
+    align-items: center;
   }
 }

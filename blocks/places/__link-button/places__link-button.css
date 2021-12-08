@@ -1,6 +1,6 @@
 .places__link-button {
   background: #0278fe;
-  min-width: 248px;
+  max-width: 248px;
   height: 48px;
   text-decoration: none;
   grid-area: link;
