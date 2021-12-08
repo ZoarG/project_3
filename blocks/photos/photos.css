@@ -1,5 +1,5 @@
 .photos {
-  margin: 118px 0 92px;
+  margin: 118px 48px0 92px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px 16px;
@@ -18,10 +18,8 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .photos {
     min-width: 288px;
-    margin: 90px 16px 62px;
+    margin: 90px 15px 62px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-items: center;
   }
 }

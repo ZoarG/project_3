@@ -4,7 +4,7 @@
   z-index: 2;
   background: rgb(42, 44, 47, 0);
   background-size: cover;
-  transition: background-color 1s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
   min-width: 1184px;
   min-height: 740px;
 }
