@@ -2,12 +2,13 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 484px;
-  grid-template-rows: 152px 460px 48px;
+  grid-template-rows: 152px 460px auto 48px;
   grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
     "image description"
-    "link description";
+    " . description"
+    "link . ";
 }
 
 .places__items:last-of-type {
@@ -28,7 +29,7 @@
     grid-gap: 46px 28px;
     grid-template-columns: 49% 51%;
     grid-auto-rows: minmax(46px, 430px);
-    grid-template-rows: auto auto 48px;
+    grid-template-rows: auto auto auto 48px;
   }
   .places__items:last-of-type {
     padding-bottom: 0;
