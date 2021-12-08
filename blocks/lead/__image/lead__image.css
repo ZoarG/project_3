@@ -1,4 +1,4 @@
-.header__image {
+.lead__image {
   padding: 0;
   margin: 62px 0 0;
   min-width: 984px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .header__image {
+  .lead__image {
     margin-top: 36px;
     min-width: 768px;
     width: 99vw;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .header__image {
+  .lead__image {
     min-width: 320px;
     width: 99vw;
     min-height: 200px;
