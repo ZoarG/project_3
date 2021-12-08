@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   color: #ffffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1281px) {
