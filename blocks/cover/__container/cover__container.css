@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
+  top: 0;
   z-index: 3;
   width: 100%;
   min-height: 740px;
