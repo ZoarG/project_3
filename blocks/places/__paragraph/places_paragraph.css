@@ -7,8 +7,8 @@
   letter-spacing: 0em;
   text-align: left;
   margin: 25px 0 0;
-  max-width: 484px;
-  width: 100%;
+  min-width: 484px;
+  width: 60%;
 }
 
 .places__paragraph:first-of-type {
@@ -17,19 +17,18 @@
 
 @media screen and (min-width: 950px) and (max-width: 1279px) {
   .places__paragraph {
-    max-width: 400px;
     font-size: 16px;
     line-height: 26.08px;
     min-width: 352px;
+    width: 80%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
   .places__paragraph {
+    min-width: 352px;
     font-size: 16px;
     line-height: 26.08px;
-    min-width: 352px;
-    max-width: 352px;
   }
 }
 
@@ -37,7 +36,8 @@
   .places__paragraph {
     margin: 25px 0 0;
     min-width: 288px;
-    width: 70%;
-    text-align: left;
+    font-size: 16px;
+    line-height: 26.08px;
+    width: 90%;
   }
 }
