@@ -1,7 +1,17 @@
 .cover {
   margin: 0 48px;
   position: relative;
-  z-index: 1;
+}
+.cover:before {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0);
+  background-size: cover;
+  transition: background-color 0.5s ease-in-out;
+}
+.cover:hover:before {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -15,5 +25,21 @@
   .cover {
     margin: 0;
     min-width: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .cover::before:hover {
+    min-width: 768px;
+    min-height: 746px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover::before:hover {
+    min-width: 320px;
+    min-height: 254px;
+    height: 80vw;
   }
 }
