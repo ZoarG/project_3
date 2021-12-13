@@ -1,6 +1,5 @@
 .cover__overlay-hover {
-  position: absolute;
-  top: 0;
+  position: relative;
   z-index: 2;
   background: rgb(42, 44, 47, 0.3);
   background-size: cover;
