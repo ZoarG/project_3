@@ -1,12 +1,11 @@
 .cover__overlay-hover {
-  position: relative;
   z-index: 2;
-  background: rgb(42, 44, 47, 0.3);
+  background-color: rgb(42, 44, 47, 0.3);
   background-size: cover;
   transition: background-color 0.5s ease-in-out;
-  min-width: 1184px;
+  min-width: 1280px;
   min-height: 740px;
-  width: 100%;
+  position: absolute;
 }
 
 .cover__overlay-hover:hover {
@@ -24,6 +23,7 @@
   .cover__overlay-hover {
     min-width: 320px;
     min-height: 254px;
-    height: 80vw;
+    width: 100%;
+    height: 64vw;
   }
 }

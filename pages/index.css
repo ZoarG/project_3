@@ -18,8 +18,9 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photos/__single/photos__single.css);
-@import url(../blocks/places/place.css);
+@import url(../blocks/places/places.css);
 @import url(../blocks/place/__items/place__items.css);
+@import url(../blocks/place/__items/_size_small/place__items_size_small.css);
 @import url(../blocks/place/__link-button/place__link-button.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__title/place__title.css);

@@ -1,4 +1,4 @@
-.places__link-button {
+.place__link-button {
   background: #0278fe;
   max-width: 248px;
   height: 48px;
@@ -8,12 +8,12 @@
   transition: background-color 0.5s ease;
 }
 
-.places__link-button:hover {
+.place__link-button:hover {
   background: #0063d2;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .places__link-button {
+  .place__link-button {
     margin: 0 auto;
     min-width: 288px;
   }
