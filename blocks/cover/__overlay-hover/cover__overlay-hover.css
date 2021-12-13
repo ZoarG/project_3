@@ -16,6 +16,7 @@
   .cover__overlay-hover {
     min-width: 768px;
     min-height: 746px;
+    width: 100%;
   }
 }
 
