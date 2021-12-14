@@ -9,7 +9,13 @@
   letter-spacing: 0em;
   text-align: center;
   padding: 0;
-  margin-top: 32px;
+  margin: 32px 148px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .lead__subtitle {
+    margin: 90px 24px 0;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -17,6 +23,6 @@
     min-width: 288px;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 16px;
+    margin: 16px 16px 0;
   }
 }

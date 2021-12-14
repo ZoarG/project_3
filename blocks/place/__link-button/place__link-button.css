@@ -1,11 +1,24 @@
 .place__link-button {
   background: #0278fe;
-  max-width: 248px;
+  min-width: 248px;
   height: 48px;
   text-decoration: none;
   grid-area: link;
   border-radius: 4px;
   transition: background-color 0.5s ease;
+  display: flex;
+  justify-self: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 13px 20px;
 }
 
 .place__link-button:hover {
@@ -14,7 +27,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__link-button {
-    margin: 0 auto;
+    margin: 0 16px;
     min-width: 288px;
   }
 }

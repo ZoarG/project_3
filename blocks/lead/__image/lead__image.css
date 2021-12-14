@@ -4,7 +4,6 @@
   min-width: 984px;
   min-height: 615px;
   background-size: cover;
-  background-image: url(../../../images/header__cover.png);
   background-color: black;
   filter: grayscale(100%);
 }
@@ -21,6 +20,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__image {
+    width: 100%;
     min-width: 320px;
     min-height: 200px;
     height: 62vw;
