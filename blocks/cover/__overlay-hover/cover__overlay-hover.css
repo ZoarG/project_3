@@ -11,7 +11,6 @@
 
 .cover__overlay-hover:hover {
   background-color: rgb(42, 44, 47, 0.8);
-  border: 1px solid #ffffff;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {

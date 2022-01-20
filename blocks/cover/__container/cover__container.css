@@ -11,14 +11,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .cover__container {
-    width: 100%;
     min-height: 746px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__container {
-    width: 100%;
     min-height: 254px;
     height: 100%;
   }
