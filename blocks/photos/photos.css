@@ -2,7 +2,6 @@
   margin: 118px 48px 92px;
   display: grid;
   grid-template-columns: repeat(4, minmax(284px, 1fr));
-  grid-template-rows: repeat(2, minmax(264px, 1fr));
   grid-gap: 16px 16px;
   min-width: 1184px;
 }
@@ -12,7 +11,6 @@
     min-width: 720px;
     margin: 90px 24px 88px;
     grid-template-columns: repeat(2, minmax(284px, 1fr));
-    grid-template-rows: repeat(4, minmax(264px, 1fr));
   }
 }
 

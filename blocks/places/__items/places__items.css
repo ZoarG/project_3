@@ -2,16 +2,23 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
-  grid-template-rows: 0.2fr 0.5fr 0.1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.1fr auto;
   grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
     "image description"
-    "link description";
+    "link description"
+    ". description";
 }
 
 .places__items:last-of-type {
   padding-bottom: 80px;
+}
+
+@media screen and (min-width: 1281px) {
+  .places__items:last-of-type {
+    grid-template-rows: 0.2fr auto 0.1fr 0.7fr;
+  }
 }
 
 @media screen and (min-width: 950px) and (max-width: 1279px) {
@@ -19,28 +26,21 @@
     margin-bottom: 70px;
     grid-gap: 46px 28px;
     grid-template-columns: 0.9fr 1.1fr;
-    grid-template-rows: 0.2fr auto 0.1fr;
+    grid-template-rows: 0.2fr auto 0.1fr 0.4fr;
   }
   .places__items:last-of-type {
-    grid-template-areas:
-      "title artist"
-      "image description"
-      "link description"
-      ". description";
-    grid-template-rows: 0.2fr 1fr auto 0.1fr;
     padding-bottom: 10px;
     margin-bottom: 72px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
+  .places__items {
+    grid-template-rows: 0.2fr auto 0.1fr 0.8fr;
+  }
+
   .places__items:last-of-type {
-    grid-template-areas:
-      "title artist"
-      "image description"
-      "link description"
-      ". description";
-    grid-template-rows: 0.2fr auto 1fr 0.1fr;
+    grid-template-rows: 0.2fr auto 1fr 0.5fr;
     padding-bottom: 20px;
     margin-bottom: 90px;
   }
