@@ -1,0 +1,67 @@
+.place {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.1fr auto;
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    "title artist"
+    "image description"
+    "link description"
+    ". description";
+}
+
+@media screen and (min-width: 1281px) {
+  .place:last-of-type {
+    grid-template-rows: 0.2fr auto 0.1fr auto;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1279px) {
+  .place {
+    grid-gap: 46px 28px;
+    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-rows: 0.2fr auto 0.1fr 0.4fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  .place {
+    grid-template-rows: 0.2fr auto 0.1fr auto;
+  }
+
+  .place:last-of-type {
+    grid-template-rows: 0.2fr auto 1fr 0.5fr;
+  }
+}
+
+@media screen and (min-width: 531px) and (max-width: 767px) {
+  .place {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr auto auto 0.1fr;
+    grid-gap: 30px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "description"
+      "link";
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 530px) {
+  .place {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.3fr auto auto;
+    grid-gap: 30px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "description"
+      "link";
+    align-items: center;
+  }
+}

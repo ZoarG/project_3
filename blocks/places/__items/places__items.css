@@ -1,32 +1,14 @@
 .places__items {
   margin-bottom: 80px;
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  grid-template-rows: 0.2fr 0.5fr 0.1fr auto;
-  grid-gap: 48px 40px;
-  grid-template-areas:
-    "title artist"
-    "image description"
-    "link description"
-    ". description";
 }
 
 .places__items:last-of-type {
   padding-bottom: 80px;
 }
 
-@media screen and (min-width: 1281px) {
-  .places__items:last-of-type {
-    grid-template-rows: 0.2fr auto 0.1fr 0.7fr;
-  }
-}
-
 @media screen and (min-width: 950px) and (max-width: 1279px) {
   .places__items {
     margin-bottom: 70px;
-    grid-gap: 46px 28px;
-    grid-template-columns: 0.9fr 1.1fr;
-    grid-template-rows: 0.2fr auto 0.1fr 0.4fr;
   }
   .places__items:last-of-type {
     padding-bottom: 10px;
@@ -35,12 +17,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
-  .places__items {
-    grid-template-rows: 0.2fr auto 0.1fr 0.8fr;
-  }
-
   .places__items:last-of-type {
-    grid-template-rows: 0.2fr auto 1fr 0.5fr;
     padding-bottom: 20px;
     margin-bottom: 90px;
   }
@@ -49,17 +26,6 @@
 @media screen and (min-width: 531px) and (max-width: 767px) {
   .places__items {
     margin: 0 0 64px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.2fr auto auto 0.1fr;
-    grid-gap: 30px;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "description"
-      "link";
-    align-items: center;
   }
   .places__items:last-of-type {
     margin-bottom: 64px;
@@ -70,17 +36,6 @@
 @media screen and (min-width: 320px) and (max-width: 530px) {
   .places__items {
     margin: 0 0 64px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.3fr auto auto;
-    grid-gap: 30px;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "description"
-      "link";
-    align-items: center;
   }
   .places__items:last-of-type {
     margin-bottom: 64px;
