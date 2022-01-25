@@ -1,18 +1,17 @@
 .place {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
-  grid-template-rows: 0.2fr 0.5fr 0.1fr auto;
+  grid-template-rows: 0.2fr 0.5fr 0.1fr;
   grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
     "image description"
-    "link description"
-    ". description";
+    "link description";
 }
 
 @media screen and (min-width: 1281px) {
   .place:last-of-type {
-    grid-template-rows: 0.2fr auto 0.1fr auto;
+    grid-template-rows: 0.2fr auto 0.1fr;
   }
 }
 
@@ -20,17 +19,17 @@
   .place {
     grid-gap: 46px 28px;
     grid-template-columns: 0.9fr 1.1fr;
-    grid-template-rows: 0.2fr auto 0.1fr 0.4fr;
+    grid-template-rows: 0.2fr auto 0.1fr;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 950px) {
   .place {
-    grid-template-rows: 0.2fr auto 0.1fr auto;
+    grid-template-rows: 0.2fr auto 0.1fr;
   }
 
   .place:last-of-type {
-    grid-template-rows: 0.2fr auto 1fr 0.5fr;
+    grid-template-rows: 0.2fr auto 1fr;
   }
 }
 

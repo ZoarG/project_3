@@ -15,7 +15,7 @@
   color: #ffffff;
   box-sizing: border-box;
   padding: 13px 20px;
-  justify-self: center;
+  justify-self: start;
   transition: background-color 0.5s ease;
 }
 
@@ -27,5 +27,6 @@
   .place__link-button {
     margin: 0 16px;
     min-width: 288px;
+    justify-self: center;
   }
 }
