@@ -8,14 +8,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .cover {
-    min-width: 768px;
     min-height: 746px;
+    min-width: 720px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover {
-    min-width: 320px;
     min-height: 254px;
+    min-width: 288px;
+    width: 100%;
   }
 }

@@ -12,12 +12,14 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .cover__container {
     min-height: 746px;
+    min-width: 720px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__container {
     min-height: 254px;
+    min-width: 288px;
     height: 100%;
   }
 }
