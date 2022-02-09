@@ -10,7 +10,7 @@
     "link description";
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
   .place:last-of-type {
     grid-template-rows: 0.2fr auto 1fr;
   }
@@ -28,7 +28,6 @@
 
 @media screen and (min-width: 531px) and (max-width: 767px) {
   .place {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.2fr auto auto 0.1fr;
     gap: 30px;
